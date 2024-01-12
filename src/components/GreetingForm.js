@@ -11,9 +11,9 @@ const GreetingForm = () => {
   return (
     <div>
       {/*   <p> Enter your name:</p>  */}   
-      <label>
+      <p>
         <input type="text" value={name} onChange={handleNameChange} />
-      </label>
+      </p>
       {name && <p>Hello {name}!</p>}
     </div>
   );
