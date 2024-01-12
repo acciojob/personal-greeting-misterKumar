@@ -10,8 +10,8 @@ const GreetingForm = () => {
 
   return (
     <div>
+        <p> Enter your name:</p>    
       <label>
-        <div> Enter your name:</div>
         <input type="text" value={name} onChange={handleNameChange} />
       </label>
       {name && <p>Hello {name}!</p>}
